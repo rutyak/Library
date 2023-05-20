@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <header >
+    <nav class="navbar">
+      <div class="logo">
+        <p>Library System</p>
+      </div>
+
+      <div class="list">
+        <ul class="list-items">
+          <li><a href="#books">Books</a></li>
+          <li><a href="#register">Register</a></li>
+          <li>Contact Us</li>
+          <li>Logout</li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- table -->
+  <div class="table">
+     <h1 id="books">Books</h1>
+     <table>
+
+           <tr>
+               <th id="book">Book ID</th>
+               <th id="title">Title</th>
+               <th id="author">Author</th>
+               <th id="genre">Genre</th>
+               <th id="available">Availability</th>
+           </tr>
+         
+            <tr>
+                <td> 1 </td>
+                <td id="twoC">
+                  <table>
+                    <a href="#">Book Title 1</a>
+                    <tr>
+                      <td>Publication Date:2000</td>
+                    </tr>
+                    <tr>
+                      <td>Page Count:250</td>
+                    </tr>
+                    <tr>
+                      <td>ISBN: 123-4567890123</td>
+                    </tr>
+                  </table>
+                <td id="threeC">Author Name 1</td>
+                <td id="fourC">Genre 1</td>
+                <td id="fiveC">Available</td>
+             </tr>
+
+             <tr>
+              <td> 2 </td>
+              <td id="twoC">
+                <table>
+                  <a href="#">Book Title 2</a>
+                  <tr>
+                    <td>Publication Date:2005</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count:300</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN: 123-4567890456</td>
+                  </tr>
+                </table>
+              </td>
+              <td id="threeC">Author Name 2</td>
+              <td id="fourC">Genre 2</td>
+              <td id="fiveC">Not Available</td>
+           </tr>
+
+           <tr>
+            <td> 3 </td>
+            <td id="twoC">
+              <table>
+                <a href="#">Book Title 3</a>
+                <tr>
+                  <td>Publication Date:2010</td>
+                </tr>
+                <tr>
+                  <td>Page Count:350</td>
+                </tr>
+                <tr>
+                  <td>ISBN: 123-4567890789</td>
+                </tr>
+              </table>
+            </td>
+            <td id="threeC">Author Name 3</td>
+            <td id="fourC">Genre 3</td>
+            <td id="fiveC">Available</td>
+         </tr>
+     </table>
+  </div><br><br><br>
+
+  <!-- form -->
+  <div>
+    
+    <form method="post">
+      <h1 id="register">Register</h1>
+      <!-- first name -->
+      <div>
+        <label for="name">First Name:</label><br/>
+        <input type="name" id="name" name="name">
+      </div>
+      <!-- last name -->
+      <div>
+        <label for="name">Last Name:</label><br>
+        <input type="name" id="name" name="name">
+      </div>
+      
+      <div>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required />
+
+      </div>
+
+      <div>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br>
+      </div>
+
+      <div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+      </div>
+
+      <div>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+      </div>
+
+      <div>
+        <label for="pass">Confirm Password:</label><br>
+        <input type="password" id="pass" name="pass"><br>
+      </div>
+
+      <div>
+        <button type="submit">Register</button><br>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
